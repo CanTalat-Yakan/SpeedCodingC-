@@ -1,0 +1,11 @@
+G:\Sonstige\Documents\SpeedCodingC-\SpeedCoding\SpeedCoding\bin\Debug\netcoreapp3.1\SpeedCoding.exe
+G:\Sonstige\Documents\SpeedCodingC-\SpeedCoding\SpeedCoding\bin\Debug\netcoreapp3.1\SpeedCoding.deps.json
+G:\Sonstige\Documents\SpeedCodingC-\SpeedCoding\SpeedCoding\bin\Debug\netcoreapp3.1\SpeedCoding.runtimeconfig.json
+G:\Sonstige\Documents\SpeedCodingC-\SpeedCoding\SpeedCoding\bin\Debug\netcoreapp3.1\SpeedCoding.runtimeconfig.dev.json
+G:\Sonstige\Documents\SpeedCodingC-\SpeedCoding\SpeedCoding\bin\Debug\netcoreapp3.1\SpeedCoding.dll
+G:\Sonstige\Documents\SpeedCodingC-\SpeedCoding\SpeedCoding\bin\Debug\netcoreapp3.1\SpeedCoding.pdb
+G:\Sonstige\Documents\SpeedCodingC-\SpeedCoding\SpeedCoding\obj\Debug\netcoreapp3.1\SpeedCoding.csprojAssemblyReference.cache
+G:\Sonstige\Documents\SpeedCodingC-\SpeedCoding\SpeedCoding\obj\Debug\netcoreapp3.1\SpeedCoding.AssemblyInfoInputs.cache
+G:\Sonstige\Documents\SpeedCodingC-\SpeedCoding\SpeedCoding\obj\Debug\netcoreapp3.1\SpeedCoding.AssemblyInfo.cs
+G:\Sonstige\Documents\SpeedCodingC-\SpeedCoding\SpeedCoding\obj\Debug\netcoreapp3.1\SpeedCoding.dll
+G:\Sonstige\Documents\SpeedCodingC-\SpeedCoding\SpeedCoding\obj\Debug\netcoreapp3.1\SpeedCoding.pdb
