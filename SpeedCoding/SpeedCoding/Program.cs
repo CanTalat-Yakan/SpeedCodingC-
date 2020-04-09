@@ -14,16 +14,16 @@ namespace SpeedCoding
         {
             Console.WriteLine("Give the Length of the int-array");
             //size of the int-array
-            int arrayLength = int.Parse(Console.ReadLine());
+            int arrayLength = Int32.Parse(Console.ReadLine());
             m_array = new int[arrayLength];
 
             Console.WriteLine("\nGive the value of int from each of index's in the int-array\n");
             //get array in list
             for (int i = 0; i < arrayLength; i++)
             {
-                Console.WriteLine($"CurrentIndex: {i}\n");
+                Console.WriteLine($"\nCurrentIndex: {i}");
                 Console.Write("CurrentValue: ");
-                m_array[i] = int.Parse(Console.ReadLine());
+                m_array[i] = Int32.Parse(Console.ReadLine());
             }
 
             //get the highest number (betrag)
@@ -41,11 +41,11 @@ namespace SpeedCoding
                     m_secondHighestIndex = m_currentHighestIndex;
 
                     m_currentHighest = current;
-                    m_currentHighestIndex = m_array[i];
+                    m_currentHighestIndex = i;
                 }
             }
 
-            if(m_currentHighest == m_secondHighest)
+            if (m_currentHighest == m_secondHighest)
             {
                 if (m_currentHighest == m_array[m_currentHighestIndex])
                 {
