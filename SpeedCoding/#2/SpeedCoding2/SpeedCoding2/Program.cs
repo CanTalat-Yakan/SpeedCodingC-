@@ -8,9 +8,7 @@ namespace SpeedCoding2
         {
             for (int i = 1; i <= 100; i++)
             {
-                if (i == 0)
-                    Console.WriteLine(i.ToString());
-                else if (i % 15 == 0)
+                if (i % 15 == 0)
                     Console.WriteLine("fizzbuzz");
                 else if (i % 5 == 0)
                     Console.WriteLine("buzz");
