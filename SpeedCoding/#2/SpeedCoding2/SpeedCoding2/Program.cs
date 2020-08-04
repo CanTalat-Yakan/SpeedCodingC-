@@ -6,7 +6,19 @@ namespace SpeedCoding2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for (int i = 0; i < 100; i++)
+            {
+                if (i == 0)
+                    Console.WriteLine(i.ToString());
+                else if (i % 15 == 0)
+                    Console.WriteLine("fizzbuzz");
+                else if (i % 5 == 0)
+                    Console.WriteLine("buzz");
+                else if (i % 3 == 0)
+                    Console.WriteLine("fizz");
+                else
+                    Console.WriteLine(i.ToString());
+            }
         }
     }
 }
