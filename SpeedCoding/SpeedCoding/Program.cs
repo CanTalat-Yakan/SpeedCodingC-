@@ -26,7 +26,7 @@ namespace SpeedCoding
                 m_array[i] = Int32.Parse(Console.ReadLine());
             }
 
-            //get the highest number (betrag)
+            //get the highesta absolute number
             for (int i = 0; i < arrayLength; i++)
             {
                 int current;
@@ -45,6 +45,7 @@ namespace SpeedCoding
                 }
             }
 
+            //check when both absolute int's are the same
             if (m_currentHighest == m_secondHighest)
             {
                 if (m_currentHighest == m_array[m_currentHighestIndex])
@@ -68,9 +69,9 @@ namespace SpeedCoding
                 {
                     //current is highest
                 }
-            }
-            Console.WriteLine("\n\nThe highest number in the array is");
-            Console.WriteLine(m_array[m_currentHighestIndex]);
+            }        
+
+            Console.WriteLine($"\n\nThe highest number in the array is {m_array[m_currentHighestIndex]}");
         }
     }
 }
