@@ -38,9 +38,10 @@ public class CharController : MonoBehaviour
         Vector3 m_inputDirection = Input.GetAxisRaw("Vertical") * transform.forward +
                                    Input.GetAxisRaw("Horizontal") * transform.right;
         if (m_jumpVelocity != 0)
+        {
             m_verticalVelocity = m_jumpVelocity;
-        else
             m_jumpVelocity = 0;
+        }
         m_verticalVelocity -= 10 * Time.deltaTime;
 
         m_inputDirection.y = m_verticalVelocity;
@@ -78,7 +79,7 @@ public class CharController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            Debug.Log(m_jumpVelocity);
+            m_jumpVelocity = 2;
         }
     }
 
