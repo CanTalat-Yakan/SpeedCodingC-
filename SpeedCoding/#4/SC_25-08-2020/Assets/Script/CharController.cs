@@ -37,12 +37,13 @@ public class CharController : MonoBehaviour
     {
         Vector3 m_inputDirection = Input.GetAxisRaw("Vertical") * transform.forward +
                                    Input.GetAxisRaw("Horizontal") * transform.right;
-        if (m_jumpVelocity != 0)
+        m_inputDirection = m_inputDirection.normalized;
+        if (m_jumpVelocity != 0 && m_controller.isGrounded)
         {
             m_verticalVelocity = m_jumpVelocity;
             m_jumpVelocity = 0;
         }
-        m_verticalVelocity -= 10 * Time.deltaTime;
+        m_verticalVelocity += Physics.gravity.y * Time.deltaTime;
 
         m_inputDirection.y = m_verticalVelocity;
 
@@ -52,8 +53,8 @@ public class CharController : MonoBehaviour
 
     void CamMovement()
     {
-        float mouseX = Input.GetAxis("Mouse X") * 2;
-        float mouseY = Input.GetAxis("Mouse Y") * 2;
+        float mouseX = Input.GetAxis("Mouse X") * 250 * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * 250 * Time.deltaTime;
 
 
         m_camVertical += -Mathf.Clamp(mouseY, -60, 60);
