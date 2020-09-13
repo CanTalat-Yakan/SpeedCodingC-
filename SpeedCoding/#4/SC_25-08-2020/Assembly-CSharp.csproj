@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\Script\CharController.cs" />
     <Reference Include="UnityEngine">
       <HintPath>G:/Anwendungen/Unity Engine/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

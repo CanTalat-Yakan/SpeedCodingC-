@@ -48,7 +48,6 @@ public class CharController : MonoBehaviour
         m_inputDirection.y = m_verticalVelocity;
 
         m_controller.Move(m_inputDirection * m_movementSpeed * Time.deltaTime);
-
     }
 
     void CamMovement()
